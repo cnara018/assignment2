@@ -6,9 +6,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Bootstrap 101 Template</title>
+  <title>Charles Naranjo</title>
 
   <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -23,17 +24,17 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          
+          <a class="navbar-brand" style="font-family: 'Tangerine',serif; color: white; font-size: 25";> CN</a>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">About Me</a>
+            <a class="nav-link" href="index.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="resume.html">Resume</a>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
+            </li> 
+         
          
         </ul>
       </div>
@@ -44,31 +45,34 @@
     
     <body>
 
+      <br>  
+
+      <h2 id= "contactMe"> Follow Me</h2>
+    <br>
+
     
-    <div class="container">
-      <form action="/action_page.php">
-        <label for="fname" style = color:white;>First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <div class="col-md-12" style="text-align:center" >
+      <p style="text-align:center"><img src="pictures/instagram.png"  width="60 " height="60"> <strong style= "font-size: 25px; color: rgb(255, 255, 255);"> Instagram: </strong> <a href="https://www.instagram.com/nintendocharlee/" style= "color: white;"> Follow my Gaming profile </a> </p>
+      <p style="text-align:center"><img src="pictures/github.png" width="60 " height="60"> <strong style= "font-size: 25px; color: rgb(255, 255, 255);"> GitHub: </strong> <a href="https://github.com/cnara018" style= "color: white;"> Check out my projects </a> </p>
+      <p style="text-align:center"><img src="pictures/linkedin logo.png" width="60" height="60"><strong style= "font-size: 25px; color: rgb(255, 255, 255);"> LinkedIn: </strong> <a href="https://www.linkedin.com/in/charlienaranjo1994/" style= "color: white;"> Network with me </a> </p>
+    </div>
+  
+
     
-        <label for="lname"style = color:white;>Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    
-        <label for="country" style = color:white;>Country</label>
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-          <option value="usa">South America</option>
-        </select>
-    
-        <label for="subject"style = color:white;>Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    
-        <input type="submit" value="Submit">
-        
-      </form>
+    <div class="card fixed-bottom mt-5">
+      <div class="card-header text-center">
+        Copyright 2020
+      </div>
     </div>
     
     </body>
+    <script>
+
+      $("submit").on("click",function(){
+        alert("Your message has been sent to Charles Naranjo.");
+      })
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </html>
+    
     
