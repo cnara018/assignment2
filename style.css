@@ -10,11 +10,11 @@
 
 }
 html, body{
-  background-color: rgb(223, 67, 67);
+  background-color: rgb(15, 58, 250);
 }
 #homepage h1, #contactMe {
     text-align: center;
-    font-size: 65px;
+    font-size: 70px;
     background-blend-mode: normal;
     color: rgb(255, 253, 253);
     font-family: 'Tangerine',serif;
@@ -51,6 +51,7 @@ h2 {
 h4{
 font-style: italic;
 color: white;
+margin-left: 20px;
 
 }
 
@@ -58,6 +59,8 @@ color: white;
 color: white;
 font-size: 25px;
 text-align: center;
+margin-left: 300px;
+margin-right: 300px;
 }
 strong{
   color: royalblue;
